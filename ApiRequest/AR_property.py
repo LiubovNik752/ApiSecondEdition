@@ -3,7 +3,7 @@ class ApiRequestProperty:
     """Создание класса ApiRequest_property для получения и изменения атрибутов через свойства"""
 
     def __init__(self, request_type = None, payload = None):
-        """Инициализация класса с динамическими атрибутами request_type и payload"""
+        """Инициализация класса с атрибутами request_type и payload"""
         self.request = request_type
         self.payload_data = payload
 
